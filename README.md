@@ -283,21 +283,6 @@ https://www.kaggle.com/datasets/yasserh/titanic-dataset
 
 ---
 
-## 🙌 Credits
-
-Base project adapted from:  
-https://github.com/camilasbraz/streamlit-exploratory-analysis
-
-Enhanced with AI-powered data quality and AutoML features.
-
----
-
-## 📜 License
-
-MIT License
-
----
-
 ## 👨‍💻 Author
 
 **Saumya Verma**  
