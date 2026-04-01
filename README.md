@@ -1,12 +1,13 @@
-DataSage AI
-AI-Powered Dataset Quality & AutoML Platform
+# DataSage AI  
+### AI-Powered Dataset Quality & AutoML Platform
 
-DataSage AI is an AI-powered dataset analysis and AutoML platform built with Streamlit, Scikit-learn, and Pandas that automatically evaluates dataset quality, detects data issues, recommends cleaning strategies, and discovers the best-performing machine learning models.
+DataSage AI is an AI-powered dataset analysis and AutoML platform built using Streamlit, Scikit-learn, and Pandas. It automatically evaluates dataset quality, detects data issues, suggests cleaning strategies, and discovers the best-performing machine learning models.
 
-The platform helps data scientists, analysts, and ML practitioners quickly understand dataset quality and build machine learning models faster.
+This platform helps data scientists, analysts, and ML practitioners quickly understand their data and accelerate the machine learning workflow.
 
-SCREENSHOTS:
-## Application Screenshots
+---
+
+## 📸 Application Screenshots
 
 ### Dataset Overview
 ![Dataset Overview](screenshots/overview.png)
@@ -15,7 +16,7 @@ SCREENSHOTS:
 ![Data Quality](screenshots/data_quality.png)
 
 ### EDA Report
-![EDA Report 1](screenshots/eda_report1.png)
+![EDA Report 1](screenshots/eda_report1.png)  
 ![EDA Report 2](screenshots/eda_report2.png)
 
 ### Auto Data Cleaning
@@ -30,280 +31,256 @@ SCREENSHOTS:
 ### AutoML Results
 ![AutoML](screenshots/auto_ml.png)
 
-Problem Statement
+---
+
+## 🚨 Problem Statement
 
 Poor dataset quality is one of the biggest reasons machine learning models fail.
 
-Data scientists spend a significant amount of time identifying issues such as:
+Data scientists spend a significant amount of time handling:
+- Missing values  
+- Duplicate records  
+- Outliers  
+- Skewed distributions  
+- Data leakage  
 
-• Missing values
-• Duplicate records
-• Outliers
-• Skewed distributions
-• Data leakage
+Manual data exploration and cleaning can be time-consuming and inefficient.
 
-Manual dataset exploration and cleaning can take hours.
+---
 
-DataSage AI automates the dataset analysis pipeline, enabling users to quickly diagnose dataset problems and build machine learning models efficiently.
+## 💡 Solution
 
-Solution Overview
+DataSage AI automates the entire dataset analysis pipeline by:
 
-DataSage AI provides an end-to-end AI-assisted dataset analysis system that:
-
-• Automatically analyzes dataset quality
-• Detects common data issues
-• Suggests intelligent cleaning strategies
-• Generates automated dataset reports
-• Recommends machine learning models
-• Runs an AutoML pipeline to discover the best model
-• Provides feature importance for explainability
+- Analyzing dataset quality  
+- Detecting data issues  
+- Suggesting intelligent cleaning strategies  
+- Generating automated reports  
+- Recommending ML models  
+- Running AutoML to find the best model  
+- Providing explainability insights  
 
 All through an interactive Streamlit dashboard.
 
-Key Features
-Dataset Overview
+---
 
-• Upload CSV or Excel datasets
-• Automatic dataset statistics
-• Interactive dataset preview
+## ✨ Key Features
 
-Automated EDA Report
+### 📊 Dataset Overview
+- Upload CSV or Excel datasets  
+- Automatic dataset statistics  
+- Interactive dataset preview  
 
-Generate a full Exploratory Data Analysis report using ydata-profiling.
+---
 
-Features include:
+### 📈 Automated EDA Report
+- Full EDA using **ydata-profiling**  
+- Includes:
+  - Variable analysis  
+  - Correlations  
+  - Missing value visualization  
+  - Dataset samples  
+- Downloadable interactive HTML report  
 
-• Variable analysis
-• Correlation detection
-• Missing value visualization
-• Dataset sample preview
+---
 
-The report can be downloaded as an interactive HTML file.
+### 🧠 Dataset Health Scoring
+- Evaluates dataset quality based on:
+  - Missing values  
+  - Duplicate rows  
+  - Completeness  
+- Outputs a **health score out of 100**  
 
-Dataset Health Scoring
+---
 
-Automatically evaluates dataset quality based on:
+### ⚠️ Data Quality Issue Detection
+- Detects:
+  - High missing values  
+  - Skewed distributions  
+  - Potential outliers  
 
-• Missing values
-• Duplicate rows
-• Dataset completeness
+---
 
-Produces a dataset health score out of 100.
+### 🧹 AI Cleaning Suggestions
+- Recommends:
+  - Missing value handling  
+  - Duplicate removal  
+  - Encoding strategies  
 
-Data Quality Issue Detection
+---
 
-Automatically detects dataset problems such as:
+### ⚡ Automatic Dataset Cleaning
+- One-click cleaning:
+  - Fill missing values  
+  - Encode categorical variables  
+  - Remove duplicates  
 
-• Columns with high missing values
-• Skewed feature distributions
-• Potential outliers
+---
 
-AI Cleaning Suggestions
+### 🤖 ML Model Recommendation
+- Trains multiple models:
+  - Logistic Regression  
+  - Random Forest  
+  - Decision Tree  
+  - SVM  
+  - KNN  
+- Compares performance  
 
-The system provides intelligent recommendations to clean the dataset:
+---
 
-• Remove duplicates
-• Handle missing values
-• Encode categorical variables
+### 🚀 AutoML Pipeline
+- Automatically selects best model  
+- Outputs:
+  - Best model  
+  - Accuracy  
+  - Comparison table  
 
-Automatic Dataset Cleaning
+---
 
-One-click dataset cleaning that:
+### 🔍 Feature Importance (Explainability)
+- Uses Random Forest  
+- Identifies most important features  
 
-• Fills missing values
-• Encodes categorical variables
-• Removes duplicate rows
+---
 
-Machine Learning Model Recommendation
+### 🔐 Data Leakage Detection
+- Detects high correlation with target  
+- Prevents model overfitting issues  
 
-Automatically trains multiple ML models and compares their performance.
+---
 
-Supported models:
+### 📝 AI Dataset Report
+- Generates human-readable insights:
+  - Dataset size  
+  - Missing values  
+  - Duplicates  
+  - Key characteristics  
 
-• Logistic Regression
-• Random Forest
-• Decision Tree
-• Support Vector Machine
-• KNN
+---
 
-Displays a model accuracy comparison table.
-
-AutoML Pipeline
-
-Automatically finds the best performing machine learning model for the dataset.
-
-Outputs include:
-
-• Best model name
-• Model accuracy
-• Model comparison table
-
-Feature Importance (Explainability)
-
-Uses Random Forest feature importance to identify the most influential features in the dataset.
-
-This helps understand:
-
-• Which variables influence predictions the most.
-
-Data Leakage Detection
-
-Automatically checks for potential data leakage risks by analyzing high correlations between features and the target variable.
-
-AI Dataset Report
-
-Generates an automated human-readable dataset summary, highlighting:
-
-• Dataset size
-• Missing values
-• Duplicate rows
-• Key dataset characteristics
-
-System Architecture
-User Dataset Upload
-        │
-        ▼
-Streamlit Dashboard
-        │
-        ▼
-Data Processing Layer
-(Pandas preprocessing)
-        │
-        ▼
+## 🏗️ System Architecture
+User Upload
+↓
+Streamlit UI
+↓
+Data Processing (Pandas)
+↓
 Data Quality Engine
- ├ Missing value detection
- ├ Duplicate detection
- ├ Outlier analysis
- ├ Skew detection
- ├ Data leakage detection
-        │
-        ▼
-AI Assistance Layer
- ├ Cleaning suggestions
- ├ Dataset report generator
-        │
-        ▼
-ML Pipeline Engine
- ├ Model recommendation
- ├ AutoML pipeline
- ├ Feature importance
-        │
-        ▼
+↓
+AI Suggestions Layer
+↓
+ML & AutoML Pipeline
+↓
 Visualization Dashboard
-(Streamlit + Plotly)
-Tech Stack
-Programming Language
 
-Python
 
-Libraries
+---
 
-Streamlit
-Pandas
-Scikit-learn
-NumPy
-Plotly
-ydata-profiling
+## 🛠️ Tech Stack
 
-Machine Learning Models
+### Programming
+- Python  
 
-Logistic Regression
-Random Forest
-Decision Tree
-Support Vector Machine
-KNN
+### Libraries
+- Streamlit  
+- Pandas  
+- NumPy  
+- Scikit-learn  
+- Plotly  
+- ydata-profiling  
 
-Project Structure
-DataSage-AI
+### ML Models
+- Logistic Regression  
+- Random Forest  
+- Decision Tree  
+- SVM  
+- KNN  
+
+---
+
+## 📂 Project Structure
+
+datasage-ai/
 │
 ├── app.py
-│
-├── utils
-│   ├── auto_fix.py
-│   ├── automl_pipeline.py
-│   ├── cleaning_suggestions.py
-│   ├── data_quality.py
-│   ├── dataset_report.py
-│   ├── dashboard.py
-│   ├── error_detection.py
-│   ├── leakage_detector.py
-│   ├── model_recommender.py
-│   └── explainability.py
-│
 ├── requirements.txt
-└── README.md
+├── README.md
+│
+├── utils/
+│ ├── auto_fix.py
+│ ├── automl_pipeline.py
+│ ├── cleaning_suggestions.py
+│ ├── data_quality.py
+│ ├── dataset_report.py
+│ ├── dashboard.py
+│ ├── error_detection.py
+│ ├── leakage_detector.py
+│ ├── model_recommender.py
+│ └── explainability.py
+│
+├── screenshots/
 
-Installation
 
-Clone the repository
+---
+
+## ⚙️ Installation & Setup
+
+### Clone the repository
+```bash
 git clone https://github.com/Saumya-eng/datasage-ai.git
+cd datasage-ai
 
-Move into the project directory
+
+---
+
+## ⚙️ Installation & Setup
+
+### Clone the repository
+```bash
+git clone https://github.com/Saumya-eng/datasage-ai.git
 cd datasage-ai
 
 Install dependencies
 pip install -r requirements.txt
 
-Run the application
+Run the app
 streamlit run app.py
 
-How It Works
-
-Upload a dataset (CSV / Excel)
-
+🔄 How It Works
+Upload dataset
 View dataset overview
-
-Run automated data quality analysis
-
-Detect dataset issues and cleaning suggestions
-
-Generate automated EDA report
-
-Run machine learning model recommendation
-
-Execute AutoML to find the best model
-
-View feature importance for explainability
-
-Example Dataset for Testing
+Analyze data quality
+Detect issues & suggestions
+Generate EDA report
+Run ML model recommendation
+Execute AutoML
+View feature importance
+📊 Example Dataset
 
 Titanic Dataset
-
 https://www.kaggle.com/datasets/yasserh/titanic-dataset
 
-Target column: Survived
+Target: Survived
 
-Student Performance Dataset
+🔮 Future Improvements
+Real-time data drift detection
+Bias detection
+Deep learning integration
+Chatbot integration
+Cloud deployment (AWS/GCP)
+Automated feature engineering
+🙌 Credits
 
-Download
-https://raw.githubusercontent.com/selva86/datasets/master/StudentsPerformance.csv
-
-Target column example:
-
-math score
-
-Future Improvements
-
-• Support for large datasets using Apache Spark
-• Deep learning model integration
-• Chatbot Integration
-• Cloud storage integration (AWS / GCP)
-• Real-time dataset monitoring
-• Automated feature engineering
-
-Credits
-
-This project extends the following open-source Streamlit EDA project:
-
+Base project adapted from:
 https://github.com/camilasbraz/streamlit-exploratory-analysis
 
-Additional AI-powered data quality and machine learning features were implemented to enhance dataset analysis and model discovery.
+Enhanced with AI-powered data quality and AutoML features.
 
-License
+📜 License
 
 MIT License
 
-Author
+👨‍💻 Author
 
 Saumya Verma
 B.Tech CSE (AI/ML)
