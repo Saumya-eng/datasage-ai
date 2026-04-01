@@ -1,7 +1,13 @@
-# DataSage AI  
+# 🚀 DataSage AI  
 ### AI-Powered Dataset Quality & AutoML Platform
 
-DataSage AI is an AI-powered dataset analysis and AutoML platform built using Streamlit, Scikit-learn, and Pandas. It automatically evaluates dataset quality, detects data issues, suggests cleaning strategies, and discovers the best-performing machine learning models.
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
+![ML](https://img.shields.io/badge/MachineLearning-AutoML-green)
+
+---
+
+DataSage AI is an AI-powered dataset analysis and AutoML platform built using **Streamlit, Scikit-learn, and Pandas**. It automatically evaluates dataset quality, detects data issues, suggests cleaning strategies, and discovers the best-performing machine learning models.
 
 This platform helps data scientists, analysts, and ML practitioners quickly understand their data and accelerate the machine learning workflow.
 
@@ -159,6 +165,7 @@ All through an interactive Streamlit dashboard.
 ---
 
 ## 🏗️ System Architecture
+```bash
 User Upload
 ↓
 Streamlit UI
@@ -172,7 +179,7 @@ AI Suggestions Layer
 ML & AutoML Pipeline
 ↓
 Visualization Dashboard
-
+```
 
 ---
 
@@ -199,7 +206,7 @@ Visualization Dashboard
 ---
 
 ## 📂 Project Structure
-
+```bash
 datasage-ai/
 │
 ├── app.py
@@ -207,29 +214,19 @@ datasage-ai/
 ├── README.md
 │
 ├── utils/
-│ ├── auto_fix.py
-│ ├── automl_pipeline.py
-│ ├── cleaning_suggestions.py
-│ ├── data_quality.py
-│ ├── dataset_report.py
-│ ├── dashboard.py
-│ ├── error_detection.py
-│ ├── leakage_detector.py
-│ ├── model_recommender.py
-│ └── explainability.py
+│   ├── auto_fix.py
+│   ├── automl_pipeline.py
+│   ├── cleaning_suggestions.py
+│   ├── data_quality.py
+│   ├── dataset_report.py
+│   ├── dashboard.py
+│   ├── error_detection.py
+│   ├── leakage_detector.py
+│   ├── model_recommender.py
+│   └── explainability.py
 │
 ├── screenshots/
-
-
----
-
-## ⚙️ Installation & Setup
-
-### Clone the repository
-```bash
-git clone https://github.com/Saumya-eng/datasage-ai.git
-cd datasage-ai
-
+```
 
 ---
 
@@ -239,48 +236,69 @@ cd datasage-ai
 ```bash
 git clone https://github.com/Saumya-eng/datasage-ai.git
 cd datasage-ai
+```
 
-Install dependencies
+### Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-Run the app
+### Run the app
+```bash
 streamlit run app.py
+```
 
-🔄 How It Works
-Upload dataset
-View dataset overview
-Analyze data quality
-Detect issues & suggestions
-Generate EDA report
-Run ML model recommendation
-Execute AutoML
-View feature importance
-📊 Example Dataset
+---
 
-Titanic Dataset
+## 🔄 How It Works
+
+1. Upload dataset
+2. View dataset overview
+3. Analyze data quality
+4. Detect issues & suggestions
+5. Generate EDA report
+6. Run ML model recommendation
+7. Execute AutoML
+8. View feature importance
+
+---
+
+## 📊 Example Dataset
+
+**Titanic Dataset**  
 https://www.kaggle.com/datasets/yasserh/titanic-dataset
 
-Target: Survived
+**Target:** Survived
 
-🔮 Future Improvements
-Real-time data drift detection
-Bias detection
-Deep learning integration
-Chatbot integration
-Cloud deployment (AWS/GCP)
-Automated feature engineering
-🙌 Credits
+---
 
-Base project adapted from:
+## 🔮 Future Improvements
+
+- Real-time data drift detection  
+- Bias detection  
+- Deep learning integration  
+- Chatbot integration  
+- Cloud deployment (AWS/GCP)  
+- Automated feature engineering  
+
+---
+
+## 🙌 Credits
+
+Base project adapted from:  
 https://github.com/camilasbraz/streamlit-exploratory-analysis
 
 Enhanced with AI-powered data quality and AutoML features.
 
-📜 License
+---
+
+## 📜 License
 
 MIT License
 
-👨‍💻 Author
+---
 
-Saumya Verma
+## 👨‍💻 Author
+
+**Saumya Verma**  
 B.Tech CSE (AI/ML)
