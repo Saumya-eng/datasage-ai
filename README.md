@@ -263,12 +263,17 @@ streamlit run app.py
 
 ---
 
-## 📊 Example Dataset
+## 📊 Example Datasets
 
 **Titanic Dataset**  
 https://www.kaggle.com/datasets/yasserh/titanic-dataset
 
 **Target:** Survived
+
+**Student Performance Dataset**
+https://raw.githubusercontent.com/selva86/datasets/master/StudentsPerformance.csv
+
+**Target:** math score
 
 ---
 
