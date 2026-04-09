@@ -1,4 +1,4 @@
-# 🚀 DataSage AI  
+# DataSage AI  
 ### AI-Powered Dataset Quality & AutoML Platform
 
 ![Python](https://img.shields.io/badge/Python-3.10-blue)
@@ -13,7 +13,7 @@ This platform helps data scientists, analysts, and ML practitioners quickly unde
 
 ---
 
-## 📸 Application Screenshots
+## Application Screenshots
 
 ### Dataset Overview
 ![Dataset Overview](screenshots/overview.png)
@@ -39,7 +39,7 @@ This platform helps data scientists, analysts, and ML practitioners quickly unde
 
 ---
 
-## 🚨 Problem Statement
+## Problem Statement
 
 Poor dataset quality is one of the biggest reasons machine learning models fail.
 
@@ -54,7 +54,7 @@ Manual data exploration and cleaning can be time-consuming and inefficient.
 
 ---
 
-## 💡 Solution
+## Solution
 
 DataSage AI automates the entire dataset analysis pipeline by:
 
@@ -70,16 +70,16 @@ All through an interactive Streamlit dashboard.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 📊 Dataset Overview
+### Dataset Overview
 - Upload CSV or Excel datasets  
 - Automatic dataset statistics  
 - Interactive dataset preview  
 
 ---
 
-### 📈 Automated EDA Report
+### Automated EDA Report
 - Full EDA using **ydata-profiling**  
 - Includes:
   - Variable analysis  
@@ -90,7 +90,7 @@ All through an interactive Streamlit dashboard.
 
 ---
 
-### 🧠 Dataset Health Scoring
+### Dataset Health Scoring
 - Evaluates dataset quality based on:
   - Missing values  
   - Duplicate rows  
@@ -99,7 +99,7 @@ All through an interactive Streamlit dashboard.
 
 ---
 
-### ⚠️ Data Quality Issue Detection
+### Data Quality Issue Detection
 - Detects:
   - High missing values  
   - Skewed distributions  
@@ -107,7 +107,7 @@ All through an interactive Streamlit dashboard.
 
 ---
 
-### 🧹 AI Cleaning Suggestions
+### AI Cleaning Suggestions
 - Recommends:
   - Missing value handling  
   - Duplicate removal  
@@ -115,7 +115,7 @@ All through an interactive Streamlit dashboard.
 
 ---
 
-### ⚡ Automatic Dataset Cleaning
+### Automatic Dataset Cleaning
 - One-click cleaning:
   - Fill missing values  
   - Encode categorical variables  
@@ -123,7 +123,7 @@ All through an interactive Streamlit dashboard.
 
 ---
 
-### 🤖 ML Model Recommendation
+### ML Model Recommendation
 - Trains multiple models:
   - Logistic Regression  
   - Random Forest  
@@ -134,7 +134,7 @@ All through an interactive Streamlit dashboard.
 
 ---
 
-### 🚀 AutoML Pipeline
+### AutoML Pipeline
 - Automatically selects best model  
 - Outputs:
   - Best model  
@@ -143,19 +143,19 @@ All through an interactive Streamlit dashboard.
 
 ---
 
-### 🔍 Feature Importance (Explainability)
+### Feature Importance (Explainability)
 - Uses Random Forest  
 - Identifies most important features  
 
 ---
 
-### 🔐 Data Leakage Detection
+### Data Leakage Detection
 - Detects high correlation with target  
 - Prevents model overfitting issues  
 
 ---
 
-### 📝 AI Dataset Report
+### AI Dataset Report
 - Generates human-readable insights:
   - Dataset size  
   - Missing values  
@@ -164,7 +164,7 @@ All through an interactive Streamlit dashboard.
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 ```bash
 User Upload
 ↓
@@ -183,7 +183,7 @@ Visualization Dashboard
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Programming
 - Python  
@@ -205,7 +205,7 @@ Visualization Dashboard
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```bash
 datasage-ai/
 │
@@ -230,7 +230,7 @@ datasage-ai/
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### Clone the repository
 ```bash
@@ -250,7 +250,7 @@ streamlit run app.py
 
 ---
 
-## 🔄 How It Works
+## How It Works
 
 1. Upload dataset
 2. View dataset overview
@@ -263,7 +263,7 @@ streamlit run app.py
 
 ---
 
-## 📊 Example Datasets
+## Example Datasets
 
 **Titanic Dataset**  
 https://www.kaggle.com/datasets/yasserh/titanic-dataset
@@ -277,7 +277,7 @@ https://raw.githubusercontent.com/selva86/datasets/master/StudentsPerformance.cs
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Real-time data drift detection  
 - Bias detection  
@@ -288,7 +288,7 @@ https://raw.githubusercontent.com/selva86/datasets/master/StudentsPerformance.cs
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Saumya Verma**  
 B.Tech CSE (AI/ML)
